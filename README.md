@@ -5,7 +5,7 @@ To run this...
 ```bash
 bundle install
 librarian-puppet install
-kitchenf list
+kitchen list
 kitchen create
 kitchen converge
 kitchen verify
