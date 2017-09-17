@@ -1,5 +1,6 @@
 .*
 !.gitignore
+!.kitchen.yml
 chefignore
 *.lock
 modules/debconf
