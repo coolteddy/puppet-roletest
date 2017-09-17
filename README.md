@@ -1,13 +1,20 @@
 # puppet-roletest
 
-makesure Puppetfile and metadata.json is present.
-metadata.json is for dependencies and Puppetfile is downloading actual module.
-
-Then run this command
+To run this...
 
 ```bash
+bundle install
 librarian-puppet install
+kitchenf list
+kitchen create
+kitchen converge
+kitchen verify
+kitchen destroy
 ```
+
+##Side notes
+makesure Puppetfile and metadata.json is present.
+metadata.json is for dependencies and Puppetfile is downloading actual module.
 
 For hieradata, you need
 hiera_data_path: hieradata

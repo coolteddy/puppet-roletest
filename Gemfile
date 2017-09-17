@@ -1,2 +1,5 @@
 gem "test-kitchen"
+gem "kitchen-puppet"
+gem "librarian-puppet"
 gem "kitchen-vagrant"
+gem "puppet"
