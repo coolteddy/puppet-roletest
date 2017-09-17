@@ -1,5 +1,10 @@
 # puppet-roletest
 
+This repo is to test kitchen puppet.
+Ref:
+https://github.com/neillturner/kitchen-puppet
+http://ehaselwanter.com/en/blog/2014/05/08/using-test-kitchen-with-puppet/
+
 To run this...
 
 ```bash
