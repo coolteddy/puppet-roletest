@@ -1,0 +1,7 @@
+.*
+!.gitignore
+chefignore
+*.lock
+modules/debconf
+modules/stdlib
+modules/timezone
