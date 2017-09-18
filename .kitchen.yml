@@ -5,7 +5,7 @@ driver:
 provisioner:
     name: puppet_apply
     # puppet_version: 4.10.8
-    # puppet_yum_collections_repo: "https://yum.puppetlabs.com/puppetlabs-release-pc1-el-7.noarch.rpm"
+    puppet_yum_collections_repo: "https://yum.puppetlabs.com/puppetlabs-release-pc1-el-7.noarch.rpm"
     manifests_path: manifests
     modules_path: modules
     # files_path: files
@@ -13,15 +13,15 @@ provisioner:
     # hiera_config_path: hiera.yaml
 
 
-# platforms:
-#   - name: centos-7.2
-
 platforms:
-  - name: centos-6.5
-    driver_plugin: vagrant
-    driver_config:
-      box: nocm_centos-6.5
-      box_url: http://puppet-vagrant-boxes.puppetlabs.com/centos-65-x64-virtualbox-nocm.box
+  - name: centos-7.2
+
+# platforms:
+#   - name: centos-6.5
+#     driver_plugin: vagrant
+#     driver_config:
+#       box: nocm_centos-6.5
+#       box_url: http://puppet-vagrant-boxes.puppetlabs.com/centos-65-x64-virtualbox-nocm.box
 
 suites:
   - name: default
