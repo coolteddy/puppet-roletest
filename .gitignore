@@ -6,3 +6,5 @@ chefignore
 modules/debconf
 modules/stdlib
 modules/timezone
+.tmp/
+modules/
